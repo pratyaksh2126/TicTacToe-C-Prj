@@ -1,0 +1,11 @@
+1. Initialize the board
+2. For each turn from 1 to 9:
+    a. Display the board
+    b. If turn is odd → Player 1 plays
+    c. Else → Player 2 plays
+    d. Validate input and update board
+    e. Check for winner
+3. If winner found:
+       Print winner
+   Else:
+       Print draw

@@ -1,0 +1,9 @@
+Validation Condition:
+Input must be between 1 and 9
+AND
+The selected board cell must be empty
+
+if (choice >= 1 && choice <= 9 && board[row][column] == ' ')
+    Valid Move
+else
+    Invalid Move

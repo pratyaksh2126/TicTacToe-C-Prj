@@ -1,0 +1,39 @@
+                      ┌──────────────────────────┐
+                      │        User Input                 │
+                      │ (Players enter 1–9 moves)         │
+                      └──────────────┬───────────┘
+                                          │
+                                          ▼
+                     ┌────────────────────────────────┐
+                     │        Main Program (main)                │
+                     │  - Controls game flow                     │
+                     │  - Alternates turns                       │
+                     │  - Calls module functions                 │
+                     └──────────────┬─────────────────┘
+                                         │
+                ┌─────────────────┼─────────────────────┐
+                │                       │                            │
+                ▼                       ▼                           ▼
+   ┌──────────────────┐   ┌─────────────────────┐  ┌─────────────────────┐
+   │  init_board()          │   │  display_board()           │  │   player_turn()            │
+   │-------------------     │   │----------------------      │  │----------------------      │
+   │ - Sets board to        │   │ - Prints current           │  │ - Reads player input       │
+   │   empty spaces         │   │   3x3 grid                 │  │ - Validates move           │
+   │ - Prepares game        │   │ - Shows X and O            │  │ - Updates board            │
+   └──────────────────┘   └─────────────────────┘  └─────────────────────┘
+                                                                       │
+                                                                       ▼
+                                               ┌────────────────────────┐
+                                               │      check_win()               │
+                                               │--------------------------      │
+                                               │ - Checks rows                  │
+                                               │ - Checks columns               │
+                                               │ - Checks diagonals             │
+                                               │ - Returns winner or none       │
+                                               └───────────────┬────────┘
+                                                                    │
+                                                                    ▼
+                                          ┌─────────────────────────────┐
+                                          │      Output Module                    │
+                                          │ (Display Winner or Draw)              │
+                                          └─────────────────────────────┘

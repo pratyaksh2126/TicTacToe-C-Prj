@@ -1,0 +1,15 @@
+Tic Tac Toe
+
+Player 1 (X) - Player 2 (O)
+
+     |     |     
+  X  |     |     
+_____|_____|_____
+     |     |     
+     |  O  |     
+_____|_____|_____
+     |     |     
+     |     |  X  
+     |     |
+
+Player 1 (X), enter a number (1-9):

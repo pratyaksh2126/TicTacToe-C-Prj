@@ -1,0 +1,8 @@
++----------------+-----------------------------------------------------+
+| Function Name  | Description                                         |
++----------------+-----------------------------------------------------+
+| init_board()   | Fills the 3x3 board with spaces                     |
+| display_board()| Prints the current tic tac toe board                |
+| player_turn()  | Takes validated input and places X/O                |
+| check_win()    | Checks rows, columns, diagonals for winner          |
++----------------+-----------------------------------------------------+
