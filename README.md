@@ -76,10 +76,10 @@ Future Enhancements:
 
 ## 7. Folder Structure 
 /
-|-- src/                 # Contains tictactoe.c
-|-- include/             # Optional header files
-|-- docs/                # ProjectReport.pdf
-|-- assets/              # Screenshots, diagrams
+|-- src/                 # Contains TicTacToe.c
+|-- include/             # Contains tictactoe.h
+|-- docs/                # Contains TicTacToe-C-ProjectReport
+|-- assets/              # Contains Flowcharts in .txt files
 |-- README.md            # This file
 |-- sample_input.txt     # Optional
 
